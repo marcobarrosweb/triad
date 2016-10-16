@@ -22,7 +22,10 @@ include_once("apiPrivada.php");
         <!-- FIM PLUGIN CSS -->
 
         <!-- INICIO CORE CSS FRAMEWORK -->
+        <!--<link href="vendor/twbs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>-->
         <link href="vendor/twbs/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/twbs/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+
         <link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
         <!-- FIM CORE CSS FRAMEWORK -->
 
@@ -177,8 +180,8 @@ include_once("apiPrivada.php");
 
         <!-- INICIO CORE JS FRAMEWORK-->
         <script src="assets/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
-        <script src="vendor/twbs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-
+        <!-- <script src="vendor/twbs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> -->
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
         <!-- INICIO PAGE LEVEL PLUGINS -->
         <script src="assets/plugins/bootstrap-datapicker/js/bootstrap-datapicker.js" type="text/javascript"></script>
         <script src="assets/plugins/bootstrap-clockpicker/bootstrap-clockpicker.min.js" type="text/javascript"></script>
