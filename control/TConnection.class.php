@@ -11,7 +11,7 @@ final class TConnection {
      */
 
     private function __construct() {
-        
+
     }
 
     /*
@@ -20,11 +20,11 @@ final class TConnection {
      */
 
     public static function open() {
-        $host = "127.0.0.1";
+        $host = "robb0222.publiccloud.com.br";
         $port = "3306";
-        $user = "root";
-        $pass = "root";
-        $dbname = "mydb";
+        $user = "imagi_triad";
+        $pass = "6yCt?4s8";
+        $dbname = "imagimweb_triad";
         $conn = new PDO("mysql:host={$host};dbname={$dbname}", $user, $pass, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 
         // define para que o PDO lance exceções na ocorrência de erros

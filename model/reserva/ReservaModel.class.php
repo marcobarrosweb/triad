@@ -49,7 +49,7 @@ class ReservaModel {
         $this->data_fim = $data_fim;
     }
 
-    
+
     //FIM METODOS GET E SET
 
     function formata_data_br($data) {
