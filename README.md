@@ -6,7 +6,7 @@ Possibilita usuário consultar disponibilidade e realiza reserva de salas.
 <a href="https://event-competition-itriad.herokuapp.com"><img width="728" src="https://event-competition-itriad.herokuapp.com/web/img/site-competicao.png" alt="Demo"></a>
 
 ## Usuario comum
-(https://triadproject.herokuapp.com/login.php)
+(https://triadproject.herokuapp.com)
 
 ```
 email: triad@gmail.com
@@ -14,7 +14,7 @@ senha: 123456
 ```
 
 ## Usuário administrativo
-(http://event-competition-itriad.herokuapp.com/admin)
+(https://triadproject.herokuapp.com)
 
 ```
 E-mail: admin@gmail.com
@@ -39,5 +39,3 @@ Senha: 123456
   * Versionamento
 * [Heroku](https://www.heroku.com)
   * Deploy
-
-## Tecnologias e Ferramentas Back End
