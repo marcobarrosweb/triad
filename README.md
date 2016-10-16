@@ -1,7 +1,6 @@
-# triad
+# TRIAD Sistema para controle e reserva de salas.
 
-Sistema para controle e reserva de salas TRIAD
-Possibilita usuário consultar disponibilidade e realiza reserva de salas.
+## Possibilita usuário consultar disponibilidade e realiza reserva de salas.
 
 <a href="https://event-competition-itriad.herokuapp.com"><img width="728" src="https://event-competition-itriad.herokuapp.com/web/img/site-competicao.png" alt="Demo"></a>
 
