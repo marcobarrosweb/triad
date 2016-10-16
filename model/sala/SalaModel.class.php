@@ -49,7 +49,7 @@ class SalaModel {
                 2 => 'descricao'
             );
 
-            $sql = "SELECT * FROM sala";
+            $sql = "SELECT * FROM sala s";
 
             $sth = $conn->prepare($sql);
             $sth->execute();
@@ -59,9 +59,9 @@ class SalaModel {
 
 
             if (!empty($requestData['search']['value'])) {   // if there is a search parameter, $requestData['search']['value'] contains search parameter
-                $sql .= " WHERE ( sala_id LIKE '%" . $requestData['search']['value'] . "%' ";
-                $sql .= " OR descricao LIKE '%" . $requestData['search']['value'] . "%' ";
-                $sql .= " OR nome LIKE '" . $requestData['search']['value'] . "%' )";
+                $sql .= " WHERE ( s.sala_id LIKE '%" . $requestData['search']['value'] . "%' ";
+                $sql .= " OR s.descricao LIKE '%" . $requestData['search']['value'] . "%' ";
+                $sql .= " OR s.nome LIKE '%" . $requestData['search']['value'] . "%' )";
             }
 
             $sth = $conn->prepare($sql);

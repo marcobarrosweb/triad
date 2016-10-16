@@ -92,9 +92,9 @@ class ReservaModel {
 
 
             if (!empty($requestData['search']['value'])) {
-                $sql .= " AND ( s.nome LIKE '%" . $requestData['search']['value'] . "%' ";
-                $sql .= " OR u.nome LIKE '%" . $requestData['search']['value'] . "%' ";
-                $sql .= " OR u.email LIKE '%" . $requestData['search']['value'] . "%')";
+                $sql .= " AND ( s.nome LIKE '%" . $requestData['search']['value'] . "' ";
+                $sql .= " OR u.nome LIKE '%" . $requestData['search']['value'] . "' ";
+                $sql .= " OR u.email LIKE '%" . $requestData['search']['value'] . "')";
             }
 
             $sth = $conn->prepare($sql);

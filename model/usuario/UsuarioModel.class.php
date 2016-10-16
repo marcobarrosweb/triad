@@ -101,7 +101,7 @@ class UsuarioModel {
 
             if (!empty($requestData['search']['value'])) {
                 $sql .= " WHERE ( nome LIKE '%" . $requestData['search']['value'] . "%' ";
-                $sql .= " OR email LIKE '" . $requestData['search']['value'] . "%' )";
+                $sql .= " OR email LIKE '%" . $requestData['search']['value'] . "%' )";
             }
 
             $sth = $conn->prepare($sql);
