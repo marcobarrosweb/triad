@@ -4,6 +4,11 @@
 
 <a href="https://triadproject.herokuapp.com"><img width="900" src="https://triadproject.herokuapp.com/assets/img/demo.png" alt="Demo"></a>
 
+
+## Modelo.
+<a href="https://triadproject.herokuapp.com"><img width="900" src="https://triadproject.herokuapp.com/assets/img/modelo.png" alt="Modelo de dados"></a>
+
+
 ## Usuário comum.
 (https://triadproject.herokuapp.com)
 
