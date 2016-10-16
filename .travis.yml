@@ -3,3 +3,8 @@ php:
 - 5.5
 - hhvm
 script: phpunit Test.php
+deploy:
+  provider: heroku
+  api_key:
+    secure: "ef359ca0-a9ea-4ee7-a0b4-5225138d0157"
+  app: triadproject
