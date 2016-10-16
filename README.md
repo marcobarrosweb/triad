@@ -2,7 +2,7 @@
 
 ## Possibilita usuário verificar disponibilidade e realizar reserva de salas.
 
-<a href="https://event-competition-itriad.herokuapp.com"><img width="800" src="https://triadproject.herokuapp.com/assets/img/demo.png" alt="Demo"></a>
+<a href="https://triadproject.herokuapp.com"><img width="900" src="https://triadproject.herokuapp.com/assets/img/demo.png" alt="Demo"></a>
 
 ## Usuario comum
 (https://triadproject.herokuapp.com)
