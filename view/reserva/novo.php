@@ -3,7 +3,7 @@
 $marca = new SalaControl();
 $arraySala = $marca->Pesquisar(NULL, NULL, NULL);
 foreach ($arraySala as $dadosSala) {
-    
+
 }
 ?>
 
