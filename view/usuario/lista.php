@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="plugins/dataTables/css/jquery.dataTables.css">
-<script type="text/javascript" language="javascript" src="plugins/dataTables/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/plugins/dataTables/css/jquery.dataTables.css">
+<script type="text/javascript" language="javascript" src="assets/plugins/dataTables/js/jquery.dataTables.js"></script>
 
 <script type="text/javascript" language="javascript" >
     $(document).ready(function () {
