@@ -82,7 +82,7 @@ class ReservaModel {
 
             $sql = "SELECT r.*, s.*, s.nome as sala_nome, u.*, u.nome as usuario_nome FROM
             reserva r, sala s, usuario u
-            WHERE r.fk_sala_id = s.sala_id AND r.fk_usuario_id = u.usuario_id ORDER BY r.data_inicio desc";
+            WHERE r.fk_sala_id = s.sala_id AND r.fk_usuario_id = u.usuario_id ";
 
             $sth = $conn->prepare($sql);
             $sth->execute();
@@ -92,10 +92,12 @@ class ReservaModel {
 
 
             if (!empty($requestData['search']['value'])) {
-                $sql .= " AND ( s.nome LIKE '%" . $requestData['search']['value'] . "' ";
-                $sql .= " OR u.nome LIKE '%" . $requestData['search']['value'] . "' ";
-                $sql .= " OR u.email LIKE '%" . $requestData['search']['value'] . "')";
+                $sql.=" AND ( u.nome LIKE '%" . $requestData['search']['value'] . "%' ";
+                $sql.=" OR s.nome LIKE '%" . $requestData['search']['value'] . "%' ";
+                $sql.=" OR u.email LIKE '" . $requestData['search']['value'] . "%' )";
             }
+
+            $sql.="ORDER BY r.data_inicio desc";
 
             $sth = $conn->prepare($sql);
             $sth->execute();
