@@ -6,7 +6,7 @@
 
 
 ## Modelo.
-<a href="https://triadproject.herokuapp.com"><img width="900" src="https://triadproject.herokuapp.com/assets/img/modelo-dados.png" alt="Modelo de dados"></a>
+<img width="600" src="https://triadproject.herokuapp.com/assets/img/modelo-dados.png" alt="Modelo de dados">
 
 
 ## Usuário comum.
