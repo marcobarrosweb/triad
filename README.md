@@ -1,4 +1,4 @@
-# TRIAD - Sistema para controle e reserva de salas.
+# TESTE TRIAD - Sistema para controle e reserva de salas.
 
 ## Possibilita usuário verificar disponibilidade e realizar reserva de salas.
 
